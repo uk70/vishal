@@ -1,0 +1,49 @@
+@import "button";
+
+
+#naav {
+    height: 10vh;
+    width: 100%;
+    border: 2px solid;
+    display: flex;
+ 
+      >div{
+        height: 30px;
+        width: 100px;
+        border: 2px solid red;
+        margin:5px;
+        margin-left: 35px;
+        // background-color: yellowgreen;
+        position: relative;
+        font-size: 11px;
+        font-weight: bold;
+        text-align: center;
+        left: 100px;
+        top: 20px;
+      }
+    // margin: 20px; // Adjust the distance between spans
+   
+    
+}
+#last{
+    background-color:rgb(37, 112, 158);
+    height: 70vh;
+    width: 1450px;
+    
+  }
+  %fix{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #last>p{
+    @extend %fix;
+
+  }
+
+#last1>p{
+ font-size: 40px;
+   text-align: center;
+   margin-top: 0px;
+   position: relative;
+   top: 30px;
+    }

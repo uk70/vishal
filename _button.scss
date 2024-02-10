@@ -1,0 +1,12 @@
+$col:#0000FF;
+$rad:20px;
+$pad:10px;
+button{
+    background-color: $col;
+    color: aliceblue;
+    border-radius: $rad;
+    @include btn($pad)
+}
+@mixin btn($q1){
+    
+}
